@@ -10,6 +10,8 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 
 Modul 2 : Adveksi-Difusi 2 Dimensi 
 Import Package
-``` import matplotlib.pyplot as plt
+``` 
+import matplotlib.pyplot as plt
 import numpy as np
-import sys ```
+import sys 
+```
