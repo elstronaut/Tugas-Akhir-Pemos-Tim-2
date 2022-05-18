@@ -7,8 +7,8 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 3. Rendy Zandika 26050120130057 Oseanografi A
 4. Salsabila Auliya Putri 26050120120025 Oseanografi A
 5. Aqidatul Izzah 26050120140167 Oseanografi B 
-6. Ahmad Nico Fitriadi
-7. Michael Joshua Xavier
+6. Ahmad Nico Fitriadi 26050120140134 Osenografi B 
+7. Michael Joshua Xavier 26050120140045 Osenografi B
 8. Raza Izzuddien Q. R. 26050120170001 Oseanografi B
 
 # 2. Metode Pengerjaan
