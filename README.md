@@ -16,3 +16,16 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 - Modul 2: Adveksi-Difusi 2D
 - Modul 3: Hidrodinamika 1D
 - Modul 4: Hidrodinamika 2D
+
+## 2.1 Modul 1: Adveksi 1D
+Adveksi merupakan 
+
+## 2.2 Modul 2: Adveksi-DIfusi 2D
+Adveksi-difusi menggunakan 
+
+- Diskretisasi adveksi:
+- Diskretisasi difusi:
+
+## 2.3 Modul 3: Hidrodinamika 1D
+
+## 2.4 Modul 4: Hidrodinamika 2D
