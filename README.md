@@ -18,7 +18,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 - Modul 4: Hidrodinamika 2D
 
 ## 2.1 Modul 1: Adveksi 1D
-Adveksi merupakan 
+Adveksi merupakan suatu mekanisme perpindahan dari suatu massa dari sebuah materi dari satu titik ketitik lainnya. Adveksi juga dapat diartikan sebagai suatu aliran rata-rata atau arus, seperti sungai atau gerakan pasang-surut yang digerakkan oleh gaya gravitasi atau tekanan dan berupa gerak horizontal. Pada kasus adveksi akan sangat erat kaitannya dengan aliran dari suatu fluida. Persamaan adveksi adalah suatu persmaan diferensial-parsial dimana pada persamaan ini akan memodelkan pergerkan suatu konsentrat dalam suatu fluida yang mengalir. Persmaan adveksi juga sering dikenal dengan persmaan konveksi. persamaan adveksi muncul dalam pemodelan berbagaifenomena yang melibatkan transportasi zat secara progresif atau gerakan gelombang.
 
 ## 2.2 Modul 2: Adveksi-DIfusi 2D
 Adveksi-difusi menggunakan 
