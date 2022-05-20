@@ -28,6 +28,13 @@ Adveksi-difusi menggunakan
 
 ## 2.3 Modul 3: Hidrodinamika 1D
 
+### 2.3.1 Cara Penggunaan Executable File (.exe)💻
+Pilih modul 3: Hidrodinamika 1 D pada folder code team 2
+1. Pengguna dapat mengunduh folder Kelompok 11 pada repositori ini.
+2. Buka file codemetnum11.py pada folder code.
+
+Untuk pembuatan script pada modul 3, digunakan script sebagai berikut:
+
         def rand_col_hex_string():
             return f'#{format(np.random.randint(0,16777215), "#08x")[2:]}'
 
