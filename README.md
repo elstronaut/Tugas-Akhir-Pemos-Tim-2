@@ -287,4 +287,5 @@ Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Seluruh a
 5. Tim asisten Praktikum Pemodelan Oseanografi 2022 yang selalu mendampingi dalam pengerjaan tugas akhir ini
 6. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repositori ini
 
-Jika terdapat pertanyaan mengenai repository ini, silakan menghubungi _contact person_ https://api.whatsapp.com/send/?phone=6285799801102&text&app_absent=0
+Jika terdapat pertanyaan mengenai repository ini, silakan menghubungi:
+Elsa: line.me/ti/p/~slsap_
