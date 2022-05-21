@@ -70,9 +70,9 @@ Pengolahan adveksi-difusi 2 dimensi dapat menggunakan metode eksplisit maupun im
 
 #### 3.2.1 _Script_ Pemodelan Adveksi-Difusi 2D
 ![Script 1]!
-[image](https://user-images.githubusercontent.com/96801637/169647598-37715e60-ec90-48ed-a58b-97c1d7b7f7ef.png)
+![image](https://user-images.githubusercontent.com/96801637/169647598-37715e60-ec90-48ed-a58b-97c1d7b7f7ef.png)
 ![Script 2]!
-[image](https://user-images.githubusercontent.com/96801637/169647619-93079565-33b7-4546-ba07-ce69d0021182.png)
+![image](https://user-images.githubusercontent.com/96801637/169647619-93079565-33b7-4546-ba07-ce69d0021182.png)
 ![Script 3]!
 ![image](https://user-images.githubusercontent.com/96801637/169647900-f651449c-8d5d-474f-a031-b9218aa78cdc.png)
 
