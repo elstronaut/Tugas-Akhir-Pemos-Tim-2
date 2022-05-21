@@ -97,7 +97,7 @@ Pada persmaan kontinuitas menggambarkan dari konservasi zat pada fluida dalam me
 ![image](https://user-images.githubusercontent.com/105764448/169650427-8b6b076c-4454-40e2-8cfe-35f1a8e58e1a.png)
 - Persmaan Momentum:
 Pada persamaan momentum prinsip yang digunakan adalah mengungkapkan hubungan antara gaya yang bekerja pada F pada sebuah unit volume dari densitas p dan kemudian gaya Inersia d(_p_V)_dt_ dari unit volume ini bagian dari gerak. Gaya Inersia berhubungan dengan  penerimaan  alami  dari  tubuh  untuk  menerima  kembali  perubahan dalam  gerak. Fluida mekanik dalam persamaan ini mengambil bentuk partikular yang mana di ambil dari hitungan faktanya bahwa partikel fluida mungkin telah tersusun. Untuk sebuah fluida incompersible (atau fluida yang tidak dapat di tempa) penggabungan persamaan momentum dengan memberikan jarak kerja persamaan dan energi, mengungkapkan sebuah bentuk dari perlindungan dari prinsip energi. Rumus dan deskritisasi persmaan momentum adalah sebagai berikut:
-![image](https://user-images.githubusercontent.com/105764448/169650742-94ab6805-3725-4f81-b9f4-d186bdd85e72.png)
+![image](https://user-images.githubusercontent.com/105764448/169650914-c00c4226-946d-4326-bb48-1a0d20a124a4.png)
 
 #### 3.3.4 Penggunaan Script Model Hidrodinamika 1 Dimensi
 1. Memasukkan  library python matploblib untuk memberikan efek visual pada grafik, numpy untuk perhitungan numerik dan sys untuk mengakses konfigurasi interpreter pada saat runtime.
