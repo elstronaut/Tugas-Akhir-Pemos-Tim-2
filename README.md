@@ -95,7 +95,8 @@ Pada model hidrodinamika 1 dimensi digunakan dua persmaan pengatur fluida yaitu 
 - Persmaan Kontinuitas: 
 Pada persmaan kontinuitas menggambarkan dari konservasi zat pada fluida dalam memberikan ruang yang tidak dapat diciptakan maupun dihancurkan. Pada kasus fluida atau sejenisnya yang tidak dapat ditempa, prinsip kontinuitas digambarkan dengan konservasi dari volume. Kecuali pada kasus yang spesial dimana parsial nampak kosong. Prinsip kontinuitas memberikan hubungan antara V, densitas _p_ (rho) dan koordinat ruang dan waktu. Rumus dan deskritisasi persmaan kontinuitas adalah sebagai berikut:
 ![image](https://user-images.githubusercontent.com/105764448/169650427-8b6b076c-4454-40e2-8cfe-35f1a8e58e1a.png)
-- Persmaan Momentum: 
+- Persmaan Momentum:
+Pada persamaan momentum prinsip yang digunakan adalah
 
 
 #### 3.3.4 Penggunaan Script Model Hidrodinamika 1 Dimensi
