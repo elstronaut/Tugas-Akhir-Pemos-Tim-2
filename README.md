@@ -289,4 +289,4 @@ Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Seluruh a
 
 Jika terdapat pertanyaan mengenai repository ini, silakan menghubungi:
 
-Elsa: bit.ly/
+Salsabila Auliya Putri: https://bit.ly/CP-RepositoryPemosTim2
