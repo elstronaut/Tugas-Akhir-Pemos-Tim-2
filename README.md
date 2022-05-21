@@ -89,8 +89,7 @@ Hidro memiliki arti air dan dinamika memiliki arti benda bergerak atau tenaga ya
 
 #### 3.3.2 Persamaan-persamaan Model Hidrodinamika 1 Dimensi
 Pada model hidrodinamika 1 dimensi digunakan dua persmaan pengatur fluida yaitu persamaan momentum dan persmaan kontinuitas.
-- Persmaan Kontinuitas
--- Prinsip Kontinuitas
+- Persmaan Kontinuitas: pada persmaan kontinuitas menggambarkan dari konservasi zat pada fluida dalam memberikan ruang yang tidak dapat diciptakan maupun dihancurkan. 
 
 #### 3.3.3 Model Hidrodinamika 1 Dimensi
 
