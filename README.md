@@ -84,6 +84,18 @@ Hidro memiliki arti air dan dinamika memiliki arti benda bergerak atau tenaga ya
 
 #### 3.3.3 Model Hidrodinamika 1 Dimensi
 
+#### 3.3.4 Hasil Model Hidrodinamika 1 Dimensi
+![1](https://user-images.githubusercontent.com/87216822/169637972-76081948-e111-4cd0-9e94-38049e76584a.jpg)
+**Gambar 1.** Perubahan Kecepatan Arus dalam Grid Tertentu di Sepanjang Waktu
+
+![2](https://user-images.githubusercontent.com/87216822/169637999-c63d83a9-edf9-4020-93bd-0c0ced5397d6.jpg)
+**Gambar 2.** Perubahan Elevasi Permukaan Air dalam Grid Tertentu di Sepanjang Waktu
+
+![3](https://user-images.githubusercontent.com/87216822/169638020-7db899b2-a0aa-43fd-8c1a-eb4096082c81.jpg)
+**Gambar 3.** Perubahan Kecepatan Arus dalam Waktu Tertentu di Sepanjang Grid
+
+![4](https://user-images.githubusercontent.com/87216822/169638038-71cd1d67-922b-4170-acfd-29c31285491c.jpg)
+**Gambar 4.** Perubahan Elevasi Permukaan Air dalam Waktu Tertentu di Sepanjang Grid
 
 ### 3.4 Modul 4: Hidrodinamika 2D
 
