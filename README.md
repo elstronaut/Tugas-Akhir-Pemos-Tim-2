@@ -1,4 +1,4 @@
-# Tugas-Akhir-Pemos-Tim-2
+# Tugas Akhir Praktikum Pemodelan Oseanografi Tim 2
 Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi Oseanografi 2022. Repositori ini memuat IPYNB file yang dapat memproses beberapa persamaan untuk pemodelan oseanografi. Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory, VS Code, dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, Python, Siphon. Seluruh script yang dibuat adalah hasil tim 2 Oseanografi 2020. Semoga dapat bermanfaat!
 
 ## 1. Authors Tim 2
@@ -288,4 +288,5 @@ Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Seluruh a
 6. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repositori ini
 
 Jika terdapat pertanyaan mengenai repository ini, silakan menghubungi:
-Elsa: line.me/ti/p/~slsap_
+
+Elsa: ![Line QR Elsa](https://user-images.githubusercontent.com/87216822/169656798-64f3a291-3e12-432a-aa34-783fd30c8921.jpg)
