@@ -79,7 +79,7 @@ Berikut ini hasil dari timestep dari polutan pada nilai t yang berbeda
 - untuk nilai t= 0.5
 ![download (1)](https://user-images.githubusercontent.com/96801637/169649389-08ee6d30-cc6e-4e9f-9417-860249ec7b3f.png)
 
--untuk nilai t= 16.0
+- untuk nilai t= 16.0
 ![download (4)](https://user-images.githubusercontent.com/96801637/169649455-e8148f1b-a522-4228-a5bf-42fbd62c4de7.png)
 
 ### 3.3 Modul 3: Hidrodinamika 1D
