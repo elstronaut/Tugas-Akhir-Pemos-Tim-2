@@ -86,9 +86,13 @@ Hidro memiliki arti air dan dinamika memiliki arti benda bergerak atau tenaga ya
 
 #### 3.3.4 Penggunaan Script Model Hidrodinamika 1 Dimensi
 1. Memasukkan  library python matploblib untuk memberikan efek visual pada grafik, numpy untuk perhitungan numerik dan sys untuk mengakses konfigurasi interpreter pada saat runtime.
+```
     import matplotlib.pyplot as plt
     import numpy as np
+    
+```
 2. Selanjutnya, memasukkan parameter perhitungan yang akan digunakan.
+```
     p = 7500 #Panjang Grid
     T = 2000 #Waktu Simulasi
     A = 0.1 #Amplitudo
@@ -111,7 +115,10 @@ Hidro memiliki arti air dan dinamika memiliki arti benda bergerak atau tenaga ya
 
     hasilu = [None for _ in range(Nmax)]
     hasilz = [None for _ in range(Nmax)]
+    
+```
 3. Setelah itu, script perhitungan dibuat.
+```
     for i in range(1, Mmax+1):
         zo[i-1] = A*np.cos(k*(i)*dx)
         uo[i-1] = A*C*np.cos(k*((i)*dx+(0.5)*dx))/(D+zo[i-1])
@@ -131,7 +138,9 @@ Hidro memiliki arti air dan dinamika memiliki arti benda bergerak atau tenaga ya
             uo[p] = ub[p]
             zo[p] = zb[p]
 
+```
 4. Setelah itu, script grafik dibuat.
+```
     def rand_col_hex_string():
         return f'#{format(np.random.randint(0,16777215), "#08x")[2:]}'
 
@@ -183,15 +192,16 @@ Hidro memiliki arti air dan dinamika memiliki arti benda bergerak atau tenaga ya
         ax3.grid()
 
     plt.show()
+```
 
 #### 3.3.5 Hasil Model Hidrodinamika 1 Dimensi
-https://github.com/elstronaut/Tugas-Akhir-Pemos-Tim-2/blob/main/Kelompok%202/Hasil%20Pemodelan/Modul%203:%20Hidrodinamika%201/Perubahan%20Elevasi%20Permukaan%20air%20dalam%20grid%20tertentu%20di%20sepanjang%20waktu.png?raw=true
+![Perubahan Elevasi Permukaan air dalam grid tertentu di sepanjang waktu](https://user-images.githubusercontent.com/103481626/169638705-96cdff1b-c191-4a21-a845-f25b4df9a141.png)
+![Perubahan Elevasi Permukaan air dalam waktu tertentu di sepanjang grid](https://user-images.githubusercontent.com/103481626/169638710-2debfd04-e0d1-48db-9495-f3e60039024d.png)
+![Perubahan Kecepatan Arus dalam grid tertentu di sepanjang waktu](https://user-images.githubusercontent.com/103481626/169638714-567c51ca-aba8-4a3f-a016-d389fbd083b5.png)
+![Perubahan kecepatan arus dalam waktu tertentu di sepanjang grid](https://user-images.githubusercontent.com/103481626/169638717-3d1361e3-a592-4c5e-be44-df1445e080c3.png)
 
-https://github.com/elstronaut/Tugas-Akhir-Pemos-Tim-2/blob/main/Kelompok%202/Hasil%20Pemodelan/Modul%203:%20Hidrodinamika%201/Perubahan%20Elevasi%20Permukaan%20air%20dalam%20waktu%20tertentu%20di%20sepanjang%20grid.png?raw=true
 
-https://github.com/elstronaut/Tugas-Akhir-Pemos-Tim-2/blob/main/Kelompok%202/Hasil%20Pemodelan/Modul%203:%20Hidrodinamika%201/Perubahan%20Kecepatan%20Arus%20dalam%20grid%20tertentu%20di%20sepanjang%20waktu.png?raw=true
 
-https://github.com/elstronaut/Tugas-Akhir-Pemos-Tim-2/blob/main/Kelompok%202/Hasil%20Pemodelan/Modul%203:%20Hidrodinamika%201/Perubahan%20kecepatan%20arus%20dalam%20waktu%20tertentu%20di%20sepanjang%20grid.png?raw=true
 
 
 ### 3.4 Modul 4: Hidrodinamika 2D
