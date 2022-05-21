@@ -84,14 +84,115 @@ Hidro memiliki arti air dan dinamika memiliki arti benda bergerak atau tenaga ya
 
 #### 3.3.3 Model Hidrodinamika 1 Dimensi
 
-#### 3.3.4 Hasil Model Hidrodinamika 1 Dimensi
-https://github.com/elstronaut/Tugas-Akhir-Pemos-Tim-2/blob/main/Kelompok%202/Hasil%20Pemodelan/Modul%203:%20Hidrodinamika%201/Perubahan%20Elevasi%20Permukaan%20air%20dalam%20grid%20tertentu%20di%20sepanjang%20waktu.png
+#### 3.3.4 Penggunaan Script Model Hidrodinamika 1 Dimensi
+1. Memasukkan  library python matploblib untuk memberikan efek visual pada grafik, numpy untuk perhitungan numerik dan sys untuk mengakses konfigurasi interpreter pada saat runtime.
+    import matplotlib.pyplot as plt
+    import numpy as np
+2. Selanjutnya, memasukkan parameter perhitungan yang akan digunakan.
+    p = 7500 #Panjang Grid
+    T = 2000 #Waktu Simulasi
+    A = 0.1 #Amplitudo
+    D = 5 #Depth/Kedalaman
+    dt = 2 
+    dx = 100
+    To = 500 #Periode
 
-https://github.com/elstronaut/Tugas-Akhir-Pemos-Tim-2/blob/main/Kelompok%202/Hasil%20Pemodelan/Modul%203:%20Hidrodinamika%201/Perubahan%20Elevasi%20Permukaan%20air%20dalam%20waktu%20tertentu%20di%20sepanjang%20grid.png
+    g = 9.8
+    pi = np.pi
+    C = np.sqrt(g*D) #Kecepatan Arus
+    s = 2*pi/To #Kecepatan Sudut Gelombang
+    L = C*To #Panjang Gelombang
+    k = 2*pi/L #Koefisien Panjang Gelombang
+    Mmax = int(p//dx)
+    Nmax = int(T//dt)
 
-https://github.com/elstronaut/Tugas-Akhir-Pemos-Tim-2/blob/main/Kelompok%202/Hasil%20Pemodelan/Modul%203:%20Hidrodinamika%201/Perubahan%20Kecepatan%20Arus%20dalam%20grid%20tertentu%20di%20sepanjang%20waktu.png
+    zo = [None for _ in range(Mmax)]
+    uo = [None for _ in range(Mmax)]
 
-https://github.com/elstronaut/Tugas-Akhir-Pemos-Tim-2/blob/main/Kelompok%202/Hasil%20Pemodelan/Modul%203:%20Hidrodinamika%201/Perubahan%20kecepatan%20arus%20dalam%20waktu%20tertentu%20di%20sepanjang%20grid.png
+    hasilu = [None for _ in range(Nmax)]
+    hasilz = [None for _ in range(Nmax)]
+3. Setelah itu, script perhitungan dibuat.
+    for i in range(1, Mmax+1):
+        zo[i-1] = A*np.cos(k*(i)*dx)
+        uo[i-1] = A*C*np.cos(k*((i)*dx+(0.5)*dx))/(D+zo[i-1])
+
+    for i in range(1, Nmax+1):
+        zb = [None for _ in range(Mmax)]
+        ub = [None for _ in range(Mmax)]
+        zb[0] = A*np.cos(s*(i)*dt)
+        ub[-1] = A*C*np.cos(k*L-s*(i)*dt)/(D+zo[-1])
+        for j in range(1, Mmax):
+            ub[j-1] = uo[j-1]-g*(dt/dx)*(zo[j]-zo[j-1])
+        for k in range(2, Mmax+1):
+            zb[k-1] = zo[k-1]-(D+zo[k-1])*(dt/dx)*(ub[k-1]-ub[k-2])
+            hasilu[i-1] = ub
+            hasilz[i-1] = zb
+        for p in range(0, Mmax):
+            uo[p] = ub[p]
+            zo[p] = zb[p]
+
+4. Setelah itu, script grafik dibuat.
+    def rand_col_hex_string():
+        return f'#{format(np.random.randint(0,16777215), "#08x")[2:]}'
+
+    hasilu_np = np.array(hasilu)
+    hasilz_np = np.array(hasilz)
+
+    fig0, ax0 = plt.subplots(figsize=(12,8))
+    for i in range(1, 16):
+        col0 = rand_col_hex_string()
+        line, = ax0.plot(hasilu_np[:,i-1], c=col0, label=f'n={i}')
+        ax0.legend()
+
+        ax0.set(xlabel='Waktu', ylabel='Kecepatan Arus',
+               title='''KELOMPOK 2_OSEANOGRAFI 2020_PRAKTIKUM PEMODELAN OSEANOGRAFI 2022
+               Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu''')
+        ax0.grid()
+
+    fig1, ax1 = plt.subplots(figsize=(12,8))
+    for i in range(1, 16):
+        col1 = rand_col_hex_string()
+        line, = ax1.plot(hasilz_np[:,i-1], c=col1, label=f'n={i}')
+        ax1.legend()
+
+        ax1.set(xlabel='Waktu', ylabel='Elevasi Muka Air',
+               title='''KELOMPOK 2_OSEANOGRAFI 2020_PRAKTIKUM PEMODELAN OSEANOGRAFI 2022
+               Perubahan Elevasi Permukaan Air Dalam Grid Tertentu di Sepanjang Waktu''')
+        ax1.grid()
+
+    fig2, ax2 = plt.subplots(figsize=(12,8))
+    for i in range(1, 16):
+        col2 = rand_col_hex_string()
+        line, = ax2.plot(hasilu_np[i-1], c=col2, label=f't={i}')
+        ax2.legend()
+
+        ax2.set(xlabel='Grid', ylabel='Kecepatan Arus',
+               title='''KELOMPOK 2_OSEANOGRAFI 2020_PRAKTIKUM PEMODELAN OSEANOGRAFI 2022
+               Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid''')
+        ax2.grid()
+
+    fig3, ax3 = plt.subplots(figsize=(12,8))
+    for i in range(1, 16):
+        col3 = rand_col_hex_string()
+        line, = ax3.plot(hasilz_np[i-1], c=col3, label=f't={i}')
+        ax3.legend()
+
+        ax3.set(xlabel='Grid', ylabel='Elevasi Muka Air',
+               title='''KELOMPOK 2_OSEANOGRAFI 2020_PRAKTIKUM PEMODELAN OSEANOGRAFI 2022
+               Perubahan Elevasi Permukaan Air Dalam Waktu Tertentu di Sepanjang Grid''')
+        ax3.grid()
+
+    plt.show()
+
+#### 3.3.5 Hasil Model Hidrodinamika 1 Dimensi
+https://github.com/elstronaut/Tugas-Akhir-Pemos-Tim-2/blob/main/Kelompok%202/Hasil%20Pemodelan/Modul%203:%20Hidrodinamika%201/Perubahan%20Elevasi%20Permukaan%20air%20dalam%20grid%20tertentu%20di%20sepanjang%20waktu.png?raw=true
+
+https://github.com/elstronaut/Tugas-Akhir-Pemos-Tim-2/blob/main/Kelompok%202/Hasil%20Pemodelan/Modul%203:%20Hidrodinamika%201/Perubahan%20Elevasi%20Permukaan%20air%20dalam%20waktu%20tertentu%20di%20sepanjang%20grid.png?raw=true
+
+https://github.com/elstronaut/Tugas-Akhir-Pemos-Tim-2/blob/main/Kelompok%202/Hasil%20Pemodelan/Modul%203:%20Hidrodinamika%201/Perubahan%20Kecepatan%20Arus%20dalam%20grid%20tertentu%20di%20sepanjang%20waktu.png?raw=true
+
+https://github.com/elstronaut/Tugas-Akhir-Pemos-Tim-2/blob/main/Kelompok%202/Hasil%20Pemodelan/Modul%203:%20Hidrodinamika%201/Perubahan%20kecepatan%20arus%20dalam%20waktu%20tertentu%20di%20sepanjang%20grid.png?raw=true
+
 
 ### 3.4 Modul 4: Hidrodinamika 2D
 
