@@ -280,9 +280,11 @@ plt.show()
 ## 4. Penutup 
 Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Seluruh authors memohon maaf apabila terdapat kesalahan dalam tugas akhir ini. Tim 2 selaku author dari repositori kali ini juga mengucapkan terimakasih kepada:
 
-Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-Rikha Widiaratih, S.Si., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-Dr. Elis Indrayanti, S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-Tim asisten Praktikum Pemodelan Oseanografi 2022 yang selalu mendampingi dalam pengerjaan tugas akhir ini
-Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repositori ini
+1. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+2. Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+3. Rikha Widiaratih, S.Si., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+4. Dr. Elis Indrayanti, S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+5. Tim asisten Praktikum Pemodelan Oseanografi 2022 yang selalu mendampingi dalam pengerjaan tugas akhir ini
+6. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repositori ini
+
+Jika terdapat pertanyaan mengenai repository ini, silakan menghubungi _contact person_ https://api.whatsapp.com/send/?phone=6285799801102&text&app_absent=0
