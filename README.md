@@ -74,9 +74,9 @@ Pengolahan adveksi-difusi 2 dimensi dapat menggunakan metode eksplisit maupun im
 ![Script 2]!
 [image](https://user-images.githubusercontent.com/96801637/169647619-93079565-33b7-4546-ba07-ce69d0021182.png)
 ![Script 3]!
-[image](https://user-images.githubusercontent.com/96801637/169647628-ab395919-b97f-436e-81be-5619ad434796.png)
+![image](https://user-images.githubusercontent.com/96801637/169647900-f651449c-8d5d-474f-a031-b9218aa78cdc.png)
 
-
+dalam pemodelan Adveksi-Difusi 2D ini menggunakan 4 skenario yang sama namun perbedaannya terletak pada nilai tetha yang berbeda. nilai tetha sangat berpengaruh terhadap pergerakan poluthan yang dipengaruhi oleh nilai U dan V dari hasil yang berbeda.
 ### 3.3 Modul 3: Hidrodinamika 1D
 
 #### 3.3.1 Pengertian Hidrodinamika 1D
