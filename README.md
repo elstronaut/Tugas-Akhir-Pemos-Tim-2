@@ -2,7 +2,7 @@
 Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi Oseanografi 2022. Repositori ini memuat IPYNB file yang dapat memproses beberapa persamaan untuk pemodelan oseanografi. Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory, VS Code, dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, Python, Siphon. Seluruh script yang dibuat adalah hasil tim 2 Oseanografi 2020. Semoga dapat bermanfaat!
 
 ## 1. Authors Tim 2
-1. Aditya Yoga Pratama
+1. Aditya Yoga Pratama 26050120130120 Oseanografi A
 2. Refaldi Rizky Maulana 26050120130048 Oseanografi A
 3. Rendy Zandika 26050120130057 Oseanografi A
 4. Salsabila Auliya Putri 26050120120025 Oseanografi A
