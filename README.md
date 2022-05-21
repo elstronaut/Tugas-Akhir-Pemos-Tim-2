@@ -289,4 +289,4 @@ Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Seluruh a
 
 Jika terdapat pertanyaan mengenai repository ini, silakan menghubungi:
 
-Elsa: ![Line QR Elsa](https://user-images.githubusercontent.com/87216822/169656798-64f3a291-3e12-432a-aa34-783fd30c8921.jpg)
+Elsa: bit.ly/
