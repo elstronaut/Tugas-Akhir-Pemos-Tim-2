@@ -200,6 +200,12 @@ Hidro memiliki arti air dan dinamika memiliki arti benda bergerak atau tenaga ya
 ![Perubahan Kecepatan Arus dalam grid tertentu di sepanjang waktu](https://user-images.githubusercontent.com/103481626/169638714-567c51ca-aba8-4a3f-a016-d389fbd083b5.png)
 ![Perubahan kecepatan arus dalam waktu tertentu di sepanjang grid](https://user-images.githubusercontent.com/103481626/169638717-3d1361e3-a592-4c5e-be44-df1445e080c3.png)
 
+#### 3.3.6 Pengaplikasian Model Hidrodinamika 1 dimensi dalam oseanografi
+1. Pemodelan hidrodinamika untuk penentuan tipe pengaman pantai  
+2. Memodelkan hidrodinamika beserta transpor sedimen untuk membuktikan adanya sedimentasi dan kekeruhan
+3. Memprediksi laju sedimentasi dengan pemodelan numerik hidrodinamika 
+4. Pemodelan Hidrodinamika untuk analisis arus dan transpor sedimen
+5. Analisis pemodelan hidrodinamika untuk mendesign breakwater 
 
 
 
