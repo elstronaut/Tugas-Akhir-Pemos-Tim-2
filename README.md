@@ -87,11 +87,12 @@ Berikut ini hasil dari timestep dari polutan pada nilai t yang berbeda
 #### 3.3.1 Pengertian Hidrodinamika 1D
 Hidro memiliki arti air dan dinamika memiliki arti benda bergerak atau tenaga yang menggerakan. Dimana model hidrodinamika adalah suatu model yang dibangun dari adanya proses-proses yang mempengaruhi pergerakan massa air. Jadi hidrodinamika dapat didefinisikan sebagai salah satu cabang ilmu pengetahuan yang mempelajari gerak liquid atau gerak fluida cair khususnya gerak air. Dimana kondisi hidrodinamika merupakan salah satu aspek yang sangat berpengaruh terhadap proses - proses yang terjadi di pantai terutama gelombang dan arus bergantung pada bentuk dan karakteristik pantai. Pada praktikum pemodelan oseanografi ini melakukan pembuatan grafik hidrodinamika 1 dimensi yang dilakukan dengan pembuatan model kecepatan arus dan elevasi muka air terhadap waktu dan ruang (grid). Persamaan pembangun hidrodinamika 1 dimensi sederhana adalah persamaan kontinuitas dan persamaan momentum. Hasil yang diperoleh adalah 4 grafik yang mewakili kondisi kecepatan arus dan perubahan elevasi terhadap waktu dan ruang. Grafik-grafik tersebut adalah Grafik Perubahan Kecepatan Arus dalam Grid Tertentu di Sepanjang Waktu, Grafik Perubahan Elevasi Permukaan Air dalam Grid Tertentu di Sepanjang Waktu, Grafik Perubahan Kecepatan Arus dalam Waktu Tertentu di Sepanjang Grid, dan grafik Perubahan Elevasi Permukaan Air dalam Waktu Tertentu di Sepanjang Grid
 
-#### 3.3.2 Persamaan-persamaan Model Hidrodinamika 1 Dimensi
+#### 3.3.2 Model Hidrodinamika 1 Dimensi 
+Pada praktikum pemodelan oseanografi ini melakukan pembuatan grafik hidrodinamika 1 dimensi yang dilakukan dengan pembuatan model kecepatan arus dan elevasi muka air terhadap waktu dan ruang (grid). Persamaan pembangun hidrodinamika 1 dimensi sederhana adalah persamaan kontinuitas dan persamaan momentum. Hasil yang diperoleh adalah 4 grafik yang mewakili kondisi kecepatan arus dan perubahan elevasi terhadap waktu dan ruang. Grafik-grafik tersebut adalah Grafik Perubahan Kecepatan Arus dalam Grid Tertentu di Sepanjang Waktu, Grafik Perubahan Elevasi Permukaan Air dalam Grid Tertentu di Sepanjang Waktu, Grafik Perubahan Kecepatan Arus dalam Waktu Tertentu di Sepanjang Grid, dan grafik Perubahan Elevasi Permukaan Air dalam Waktu Tertentu di Sepanjang Grid
+
+#### 3.3.3 Persamaan-persamaan Model Hidrodinamika 1 Dimensi
 Pada model hidrodinamika 1 dimensi digunakan dua persmaan pengatur fluida yaitu persamaan momentum dan persmaan kontinuitas.
 - Persmaan Kontinuitas: pada persmaan kontinuitas menggambarkan dari konservasi zat pada fluida dalam memberikan ruang yang tidak dapat diciptakan maupun dihancurkan. Pada kasus fluida atau sejenisnya yang tidak dapat ditempa, prinsip kontinuitas digambarkan dengan konservasi dari volume. 
-
-#### 3.3.3 Model Hidrodinamika 1 Dimensi
 
 #### 3.3.4 Penggunaan Script Model Hidrodinamika 1 Dimensi
 1. Memasukkan  library python matploblib untuk memberikan efek visual pada grafik, numpy untuk perhitungan numerik dan sys untuk mengakses konfigurasi interpreter pada saat runtime.
