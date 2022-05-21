@@ -69,10 +69,9 @@ Pengolahan adveksi-difusi 2 dimensi dapat menggunakan metode eksplisit maupun im
 - Sedangkan, pada model difusi menggunakan pendekatan beda maju untuk turunan waktu dan beda pusat untuk turunan ruang.
 
 #### 3.2.1 _Script_ Pemodelan Adveksi-Difusi 2D
-![Script 1](https://user-images.githubusercontent.com/87216822/169637543-f74e8461-26f3-4ac5-b420-a98815caeadb.jpg)
-![Script 2](https://user-images.githubusercontent.com/87216822/169637548-a3afd038-8171-4b5d-a753-005a0a324670.jpg)
-![Script 3](https://user-images.githubusercontent.com/87216822/169637551-273bc84d-3900-42fe-8b3b-d3589d8d567f.jpg)
-![Script 4](https://user-images.githubusercontent.com/87216822/169637561-086eafa7-04e6-430a-89b1-217871c4ec00.jpg)
+![Script 1]![image](https://user-images.githubusercontent.com/96801637/169647598-37715e60-ec90-48ed-a58b-97c1d7b7f7ef.png)
+![Script 2]![image](https://user-images.githubusercontent.com/96801637/169647619-93079565-33b7-4546-ba07-ce69d0021182.png)
+![Script 3]![image](https://user-images.githubusercontent.com/96801637/169647628-ab395919-b97f-436e-81be-5619ad434796.png)
 
 
 ### 3.3 Modul 3: Hidrodinamika 1D
