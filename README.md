@@ -230,8 +230,15 @@ Pada persamaan momentum prinsip yang digunakan adalah mengungkapkan hubungan ant
 
 
 ### 3.4 Modul 4: Hidrodinamika 2D
+Materi hidrodinamika 2D adalah untuk mininjau nilai informasi gelombang laut, angin, dan tekanan pada lokasi perairan yang diambil dari data gelombang National Buoy Data Center (NDBC) Milik NOAA.  Yang dimana data atau informasi yang kita ambil tersebut akan kita plotkan untuk memodelkan kolerasi antara beberapa parameter terkait.
 
-#### 3.4.1 Penggunaan Script Model Data Gelombang National Buoy Data Center (NDBC) 
+### 3.4.1 Penerapan Hidrodinamika 2D di Oseanografi
+1. Pemodelan gelombang karena angin
+2. Pemodelan Arus 
+3. Pemodelan Polutan /sampah di laut
+4. pemodelan coastal dynamic dan sedimentasi pantai
+
+#### 3.4.2 Penggunaan Script Model Data Gelombang National Buoy Data Center (NDBC) 
 ```
 #Copyright (c) 2018 Siphon Contributors
 #Distributed under the terms of the BSD 3-Clause License
