@@ -39,7 +39,7 @@ Untuk menginstall ketiga modul tersebut, langkah-langkah yang perlu dilakukan ad
 7. Tunggu proses selesai.
 
 
-## 3. Materi dan Metode Pengerjaan
+## 3. Materi dan Metode Pengerjaan🔨
 - Modul 1: Adveksi-Difusi 1D
 - Modul 2: Adveksi-Difusi 2D
 - Modul 3: Hidrodinamika 1D
@@ -318,7 +318,7 @@ plt.show()
 ![Pressure, Wind Speed, Wind Direction, Water Temperature](https://user-images.githubusercontent.com/105728766/169687474-a6c26811-8994-4fa1-8f9f-c8bc26c9083b.png)
 
 
-## 4. Penutup 
+## 4. Penutup🙆
 Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Seluruh authors memohon maaf apabila terdapat kesalahan dalam tugas akhir ini. Tim 2 selaku author dari repositori kali ini juga mengucapkan terimakasih kepada:
 
 1. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
