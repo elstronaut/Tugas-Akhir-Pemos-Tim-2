@@ -85,7 +85,7 @@ Berikut ini hasil dari timestep dari polutan pada nilai t yang berbeda
 - untuk nilai t= 16.0
 ![download (4)](https://user-images.githubusercontent.com/96801637/169649455-e8148f1b-a522-4228-a5bf-42fbd62c4de7.png)
 
-#### 3.2.2 Pengaplikasian Adveksi-Difusi 2D dalam Oseanografi
+#### 3.2.2 Pengaplikasian Adveksi-Difusi 2D dalam Oseanografi 
 Dalam bidang oseanografi, pemodelan oseanografi adveksi-difusi 2 dimensi sangat penting dilakukan untuk memetakan atau memodelkan suatu perhitungan dari kejadian-kejadian alam yang terjadi di laut. Pemodelan adveksi-difusi 2 dimensi dapat digunakan untuk:
 1. Menghitung dan memodelkan sebaran polutan yang ada di laut.
 2. Memodelkan sebaran nutrien di perairan sungai maupun laut.
