@@ -29,11 +29,9 @@ Untuk menginstall ketiga modul tersebut, langkah-langkah yang perlu dilakukan ad
 4. Tunggu proses selesai.
 5. Kemudian, ketik "pip install numpy" (tanpa tanda petik). Dan klik enter.
 ![install numpy](https://user-images.githubusercontent.com/105728766/169687540-cbe89095-61fa-4964-a985-1b4e5d616e9f.png)
-
 7. Tunggu proses selesai.
 8. Terakhir, ketik "pip install siphon"
 ![install siphon](https://user-images.githubusercontent.com/105728766/169687546-7da6e556-d19e-4f56-b78b-0661ad60c687.png)
-
 10. Tunggu proses selesai.
 
 ## 3. Materi dan Metode Pengerjaan
