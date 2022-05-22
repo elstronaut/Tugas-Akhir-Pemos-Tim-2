@@ -284,6 +284,10 @@ ax3.set_ylabel('Water Temperature [degC]')
 plt.show()
 ```
 
+### 3.4.3 Hasil Permodelan Hidrodinamika 2
+![Pressure, Wind Speed, Wind Direction, Water Temperature](https://user-images.githubusercontent.com/105728766/169687474-a6c26811-8994-4fa1-8f9f-c8bc26c9083b.png)
+
+
 ## 4. Penutup 
 Demikianlah tugas akhir praktikum pemodelan oseanografi ini kami buat. Seluruh authors memohon maaf apabila terdapat kesalahan dalam tugas akhir ini. Tim 2 selaku author dari repositori kali ini juga mengucapkan terimakasih kepada:
 
