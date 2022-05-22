@@ -1,5 +1,5 @@
 # Tugas Akhir Praktikum Pemodelan Oseanografi Tim 2
-Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi Oseanografi 2022. Repositori ini memuat IPYNB file yang dapat memproses beberapa persamaan untuk pemodelan oseanografi. Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory, VS Code, dan Jupyter Notebook. Sedangkan, untuk modul yang digunakan kali ini adalah Numpy, Matplotlib, Python, Siphon. Seluruh script yang dibuat adalah hasil tim 2 Oseanografi 2020. Semoga dapat bermanfaat!
+Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi Oseanografi 2022. Repositori ini memuat IPYNB file yang dapat memproses beberapa persamaan untuk Pemodelan Oseanografi. Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman _Python_ yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory, VS Code, dan Jupyter Notebook_. Sedangkan, untuk modul yang digunakan kali ini adalah _Numpy, Matplotlib, Python, Siphon_. Seluruh _script_ yang dibuat adalah hasil tim 2 Oseanografi 2020. Semoga dapat bermanfaat!
 
 ## 1. Authors Tim 2
 1. Aditya Yoga Pratama 26050120130120 Oseanografi A
@@ -12,12 +12,12 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 8. Raza Izzuddien Qossam Ramadhani 26050120170001 Oseanografi B
 
 ## 2. Instalasi Modul Pemodelan Oseanografi
-Pada pemodelan oseanografi, praktikan dapat menggunakan software, seperti Jupyter Notebook, VS Code, Google Colaboratory, atau yang lainnya untuk mengoperasikan _script_ pemodelan yang telah dibuat. Untuk mengerjakan pemodelan oseanografi, diperlukan beberapa modul tambahan untuk menjalankan _script_ program. Modul-modul tersebut, antara lain matplotlib, siphon, dan numpy. 
-- Matplotlib merupakan modul untuk menciptakan visualisasi statis, animasi, dan interaktif dalam program Python.
-- Siphon merupakan modul untuk ...
-- Numpy merupakan modul untuk menjalankan operasi matematika.
+Pada pemodelan oseanografi, praktikan dapat menggunakan software, seperti _Jupyter Notebook, VS Code, Google Colaboratory_, atau yang lainnya untuk mengoperasikan _script_ pemodelan yang telah dibuat. Untuk mengerjakan pemodelan oseanografi, diperlukan beberapa modul tambahan untuk menjalankan _script_ program. Modul-modul tersebut, antara lain matplotlib, siphon, dan numpy. 
+- _Matplotlib_ merupakan modul untuk menciptakan visualisasi statis, animasi, dan interaktif dalam program Python.
+- _Siphon_ atau _sys_ merupakan modul untuk membuat visualisasi untuk pemodelan hidrodinamika 2D.
+- _Numpy_ merupakan modul untuk menjalankan operasi matematika.
 
-Install Jupyter Notebook:
+_Install Jupyter Notebook_:
 1. Buka website https://anaconda.org/conda-forge/prompt untuk mengunduh Anaconda Prompt.
 2. Tunggu proses dan install ketika selesai mengunduh.
 ![install anaconda prompt](https://user-images.githubusercontent.com/105728766/169687799-798825a0-c9d4-4984-85c4-9c91c18b35e4.png)
@@ -35,18 +35,37 @@ Untuk menginstall ketiga modul tersebut, langkah-langkah yang perlu dilakukan ad
 6. Terakhir, ketik "pip install siphon"
 
 ![install siphon](https://user-images.githubusercontent.com/105728766/169687546-7da6e556-d19e-4f56-b78b-0661ad60c687.png)
-10. Tunggu proses selesai.
+
+7. Tunggu proses selesai.
 
 ## 3. Materi dan Metode Pengerjaan
-- Modul 1: Adveksi 1D
+- Modul 1: Adveksi-Difusi 1D
 - Modul 2: Adveksi-Difusi 2D
 - Modul 3: Hidrodinamika 1D
 - Modul 4: Hidrodinamika 2D
 
-### 3.1 Modul 1: Adveksi 1D
+### 3.1 Modul 1: Adveksi-Difusi 1D
 - Adveksi merupakan suatu mekanisme perpindahan dari suatu massa dari sebuah materi dari satu titik ketitik lainnya. 
-- Adveksi juga dapat diartikan sebagai suatu aliran rata-rata atau arus, seperti sungai atau gerakan pasang-surut yang digerakkan oleh gaya gravitasi atau tekanan dan berupa gerak horizontal. Pada kasus adveksi akan sangat erat kaitannya dengan aliran dari suatu fluida. 
-- Persamaan adveksi adalah suatu persmaan diferensial-parsial dimana pada persamaan ini akan memodelkan pergerkan suatu konsentrat dalam suatu fluida yang mengalir. Persmaan adveksi juga sering dikenal dengan persmaan konveksi. Persamaan adveksi muncul dalam pemodelan berbagaifenomena yang melibatkan transportasi zat secara progresif atau gerakan gelombang.
+- Penyelesaian adveksi dapat menggunakan persamaan eksplisit dan implisit.
+- Persamaan adveksi 1D adalah
+
+![Adveksi 1D](https://user-images.githubusercontent.com/87216822/169695586-8c5434c9-71e8-4055-9541-e5f4a8cca4bf.jpg)
+
+Persamaan eksplisit: terdapat stabilitas hitungan.
+- Metode FTCS: gabungan antara beda maju terhadap waktu dan beda pusat terhadap ruang
+- Metode Leapfrog: metode beda tengah terhadap ruang dan waktu
+- Metode Upstream: skema yang digunakan untuk melengkapi ketidaksempurnaan metode Leapfrog
+
+- Difusi merupakan sebuah proses di mana suatu zat bergerak dari konsentrasi tinggi ke rendah.
+- Diskretisasi difusi 1D dilakukan secara eksplisit (FTCS); Eksplisit secara kontinyu maupun diskontinyu.
+- Persamaan difusi 1D adalah
+
+![Difusi 1D](https://user-images.githubusercontent.com/87216822/169695651-f98ea1ea-85f2-4910-b28b-a23e28493df5.jpg)
+
+- Persamaan adveksi-difusi 1D adalah sebagai berikut:
+
+![Adveksi-Difusi 1D](https://user-images.githubusercontent.com/87216822/169695673-56367d1d-6162-4a33-9c04-d4e7c949f961.jpg)
+
 
 ### 3.2 Modul 2: Adveksi-Difusi 2D
 - Adveksi merupakan mekanisme perpindahan massa suatu materi dari satu titik ke titik lainnya. Contoh dari adveksi adalah pergerakan kayu dari hulu ke hilir sungai akibat adanya penggerak berupa aliran arus sungai.
@@ -94,6 +113,7 @@ Dalam bidang oseanografi, pemodelan oseanografi adveksi-difusi 2 dimensi sangat 
 2. Memodelkan sebaran nutrien di perairan sungai maupun laut.
 3. Mengetahui kebocoran minyak.
 
+
 ### 3.3 Modul 3: Hidrodinamika 1D
 
 #### 3.3.1 Pengertian Hidrodinamika 1D
@@ -103,11 +123,12 @@ Hidro memiliki arti air dan dinamika memiliki arti benda bergerak atau tenaga ya
 Pada praktikum pemodelan oseanografi ini melakukan pembuatan grafik hidrodinamika 1 dimensi yang dilakukan dengan pembuatan model kecepatan arus dan elevasi muka air terhadap waktu dan ruang (grid). Persamaan pembangun hidrodinamika 1 dimensi sederhana adalah persamaan kontinuitas dan persamaan momentum. Hasil yang diperoleh adalah 4 grafik yang mewakili kondisi kecepatan arus dan perubahan elevasi terhadap waktu dan ruang. Grafik-grafik tersebut adalah Grafik Perubahan Kecepatan Arus dalam Grid Tertentu di Sepanjang Waktu, Grafik Perubahan Elevasi Permukaan Air dalam Grid Tertentu di Sepanjang Waktu, Grafik Perubahan Kecepatan Arus dalam Waktu Tertentu di Sepanjang Grid, dan grafik Perubahan Elevasi Permukaan Air dalam Waktu Tertentu di Sepanjang Grid
 
 #### 3.3.3 Persamaan-persamaan Model Hidrodinamika 1 Dimensi
-Pada model hidrodinamika 1 dimensi digunakan dua persmaan pengatur fluida yaitu persamaan momentum dan persmaan kontinuitas.
-- Persmaan Kontinuitas: 
-Pada persmaan kontinuitas menggambarkan dari konservasi zat pada fluida dalam memberikan ruang yang tidak dapat diciptakan maupun dihancurkan. Pada kasus fluida atau sejenisnya yang tidak dapat ditempa, prinsip kontinuitas digambarkan dengan konservasi dari volume. Kecuali pada kasus yang spesial dimana parsial nampak kosong. Prinsip kontinuitas memberikan hubungan antara V, densitas _p_ (rho) dan koordinat ruang dan waktu.
+Pada model hidrodinamika 1 dimensi digunakan dua persamaan pengatur fluida yaitu persamaan momentum dan persmaan kontinuitas.
+- Persamaan Kontinuitas: 
+Pada persamaan kontinuitas menggambarkan dari konservasi zat pada fluida dalam memberikan ruang yang tidak dapat diciptakan maupun dihancurkan. Pada kasus fluida atau sejenisnya yang tidak dapat ditempa, prinsip kontinuitas digambarkan dengan konservasi dari volume. Kecuali pada kasus yang spesial dimana parsial nampak kosong. Prinsip kontinuitas memberikan hubungan antara V, densitas _p_ (rho) dan koordinat ruang dan waktu.
 ![image](https://user-images.githubusercontent.com/105764448/169650427-8b6b076c-4454-40e2-8cfe-35f1a8e58e1a.png)
-- Persmaan Momentum:
+
+- Persamaan Momentum:
 Pada persamaan momentum prinsip yang digunakan adalah mengungkapkan hubungan antara gaya yang bekerja pada F pada sebuah unit volume dari densitas _p_ dan kemudian gaya Inersia d(pV)dt dari unit volume ini bagian dari gerak. Gaya Inersia berhubungan dengan  penerimaan  alami  dari  tubuh  untuk  menerima  kembali  perubahan dalam  gerak. Fluida mekanik dalam persamaan ini mengambil bentuk partikular yang mana di ambil dari hitungan faktanya bahwa partikel fluida mungkin telah tersusun. Untuk sebuah fluida incompersible (atau fluida yang tidak dapat di tempa) penggabungan persamaan momentum dengan memberikan jarak kerja persamaan dan energi, mengungkapkan sebuah bentuk dari perlindungan dari prinsip energi.
 ![image](https://user-images.githubusercontent.com/105764448/169650943-dca11812-bb70-4bf6-9cce-506a9d3d9fe1.png)
 
@@ -228,6 +249,7 @@ Pada persamaan momentum prinsip yang digunakan adalah mengungkapkan hubungan ant
 ![Perubahan kecepatan arus dalam waktu tertentu di sepanjang grid](https://user-images.githubusercontent.com/103481626/169638717-3d1361e3-a592-4c5e-be44-df1445e080c3.png)
 
 #### 3.3.6 Pengaplikasian Model Hidrodinamika 1D dalam Oseanografi
+Dalam bidang oseanografi, pemodelan oseanografi hidrodinamika 1 dimensi sangat penting dilakukan untuk memetakan atau memodelkan suatu perhitungan dari kejadian-kejadian alam yang terjadi di laut. Pemodelan hidrodinamika 1 dimensi dapat digunakan untuk:
 1. Pemodelan hidrodinamika untuk penentuan tipe pengaman pantai.  
 2. Memodelkan hidrodinamika beserta transpor sedimen untuk membuktikan adanya sedimentasi dan kekeruhan.
 3. Memprediksi laju sedimentasi dengan pemodelan numerik hidrodinamika.
@@ -238,11 +260,12 @@ Pada persamaan momentum prinsip yang digunakan adalah mengungkapkan hubungan ant
 ### 3.4 Modul 4: Hidrodinamika 2D
 Materi hidrodinamika 2D adalah untuk mininjau nilai informasi gelombang laut, angin, dan tekanan pada lokasi perairan yang diambil dari data gelombang National Buoy Data Center (NDBC) Milik NOAA.  Yang dimana data atau informasi yang kita ambil tersebut akan kita plotkan untuk memodelkan kolerasi antara beberapa parameter terkait.
 
-### 3.4.1 Penerapan Hidrodinamika 2D di Oseanografi
-1. Pemodelan gelombang karena angin
-2. Pemodelan Arus 
-3. Pemodelan Polutan /sampah di laut
-4. pemodelan coastal dynamic dan sedimentasi pantai
+#### 3.4.1 Penerapan Hidrodinamika 2D di Oseanografi
+Dalam bidang oseanografi, pemodelan oseanografi hidrodinamika 2 dimensi sangat penting dilakukan untuk memetakan atau memodelkan suatu perhitungan dari kejadian-kejadian alam yang terjadi di laut. Pemodelan hidrodinamika 2 dimensi dapat digunakan untuk:
+1. Pemodelan gelombang karena angin.
+2. Pemodelan arus.
+3. Pemodelan polutan, limbah, atau sampah di laut.
+4. Pemodelan _coastal dynamic_ dan sedimentasi pantai.
 
 #### 3.4.2 Penggunaan Script Model Data Gelombang National Buoy Data Center (NDBC) 
 ```
@@ -290,7 +313,7 @@ ax3.set_ylabel('Water Temperature [degC]')
 plt.show()
 ```
 
-### 3.4.3 Hasil Permodelan Hidrodinamika 2
+#### 3.4.3 Hasil Permodelan Hidrodinamika 2
 ![Pressure, Wind Speed, Wind Direction, Water Temperature](https://user-images.githubusercontent.com/105728766/169687474-a6c26811-8994-4fa1-8f9f-c8bc26c9083b.png)
 
 
