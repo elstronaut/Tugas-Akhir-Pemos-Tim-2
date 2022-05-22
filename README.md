@@ -1,7 +1,7 @@
-# Tugas Akhir Praktikum Pemodelan Oseanografi Tim 2
+# Tugas Akhir Praktikum Pemodelan Oseanografi Tim 2🌊
 Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi Oseanografi 2022. Repositori ini memuat IPYNB file yang dapat memproses beberapa persamaan untuk Pemodelan Oseanografi. Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman _Python_ yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory, VS Code, dan Jupyter Notebook_. Sedangkan, untuk modul yang digunakan kali ini adalah _Numpy, Matplotlib, Python, Siphon_. Seluruh _script_ yang dibuat adalah hasil tim 2 Oseanografi 2020. Semoga dapat bermanfaat!
 
-## 1. Authors Tim 2
+## 1. Authors Tim 2👨‍💻
 1. Aditya Yoga Pratama 26050120130120 Oseanografi A
 2. Refaldi Rizky Maulana 26050120130048 Oseanografi A
 3. Rendy Zandika 26050120130057 Oseanografi A
@@ -11,7 +11,7 @@ Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi
 7. Michael Joshua Xavier 26050120140045 Osenografi B
 8. Raza Izzuddien Qossam Ramadhani 26050120170001 Oseanografi B
 
-## 2. Instalasi Modul Pemodelan Oseanografi
+## 2. Instalasi Modul Pemodelan Oseanografi💻
 Pada pemodelan oseanografi, praktikan dapat menggunakan software, seperti _Jupyter Notebook, VS Code, Google Colaboratory_, atau yang lainnya untuk mengoperasikan _script_ pemodelan yang telah dibuat. Untuk mengerjakan pemodelan oseanografi, diperlukan beberapa modul tambahan untuk menjalankan _script_ program. Modul-modul tersebut, antara lain matplotlib, siphon, dan numpy. 
 - _Matplotlib_ merupakan modul untuk menciptakan visualisasi statis, animasi, dan interaktif dalam program Python.
 - _Siphon_ atau _sys_ merupakan modul untuk membuat visualisasi untuk pemodelan hidrodinamika 2D.
@@ -37,6 +37,7 @@ Untuk menginstall ketiga modul tersebut, langkah-langkah yang perlu dilakukan ad
 ![install siphon](https://user-images.githubusercontent.com/105728766/169687546-7da6e556-d19e-4f56-b78b-0661ad60c687.png)
 
 7. Tunggu proses selesai.
+
 
 ## 3. Materi dan Metode Pengerjaan
 - Modul 1: Adveksi-Difusi 1D
