@@ -120,7 +120,10 @@ Dalam bidang oseanografi, pemodelan oseanografi adveksi-difusi 2 dimensi sangat 
 #### 3.3.1 Pengertian Hidrodinamika 1D
 Hidro memiliki arti air dan dinamika memiliki arti benda bergerak atau tenaga yang menggerakan. Dimana model hidrodinamika adalah suatu model yang dibangun dari adanya proses-proses yang mempengaruhi pergerakan massa air. Jadi hidrodinamika dapat didefinisikan sebagai salah satu cabang ilmu pengetahuan yang mempelajari gerak liquid atau gerak fluida cair khususnya gerak air. Dimana kondisi hidrodinamika merupakan salah satu aspek yang sangat berpengaruh terhadap proses - proses yang terjadi di pantai terutama gelombang dan arus bergantung pada bentuk dan karakteristik pantai. 
 
-#### 3.3.2 Model Hidrodinamika 1 Dimensi 
+#### 3.3.2 Model Hidrodinamika 1 Dimensi
+- Model hidrodinamika merupakan suatu permodelan yang dibentuk karena proses-proses yang dapat memengaruhi pergerakan massa air
+- Pada permodelan hidrodinamika menggunakan hukum kontinuitas dan hukum kekelan momentum
+- fungsi dari model hidrodinamika digunakan untuk memodelkan elevasi permukaan air laut dan atau arus yang dipengaruhi oleh parameter-parameter tertentu
 Pada praktikum pemodelan oseanografi ini melakukan pembuatan grafik hidrodinamika 1 dimensi yang dilakukan dengan pembuatan model kecepatan arus dan elevasi muka air terhadap waktu dan ruang (grid). Persamaan pembangun hidrodinamika 1 dimensi sederhana adalah persamaan kontinuitas dan persamaan momentum. Hasil yang diperoleh adalah 4 grafik yang mewakili kondisi kecepatan arus dan perubahan elevasi terhadap waktu dan ruang. Grafik-grafik tersebut adalah Grafik Perubahan Kecepatan Arus dalam Grid Tertentu di Sepanjang Waktu, Grafik Perubahan Elevasi Permukaan Air dalam Grid Tertentu di Sepanjang Waktu, Grafik Perubahan Kecepatan Arus dalam Waktu Tertentu di Sepanjang Grid, dan grafik Perubahan Elevasi Permukaan Air dalam Waktu Tertentu di Sepanjang Grid
 
 #### 3.3.3 Persamaan-persamaan Model Hidrodinamika 1 Dimensi
