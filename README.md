@@ -25,11 +25,16 @@ Install Jupyter Notebook:
 Untuk menginstall ketiga modul tersebut, langkah-langkah yang perlu dilakukan adalah sebagai berikut:
 1. Buka Anaconda Prompt.
 2. Ketik "pip install matplotlib" (tanpa tanda petik). Kemudian klik enter.
-3. Tunggu proses selesai.
-4. Kemudian, ketik "pip install numpy" (tanpa tanda petik). Dan klik enter.
-5. Tunggu proses selesai.
-6. Terakhir, ketik "pip install siphon"
+![install matplotlib](https://user-images.githubusercontent.com/105728766/169687513-3941866d-43c5-4cda-bcdd-593776586e80.png)
+4. Tunggu proses selesai.
+5. Kemudian, ketik "pip install numpy" (tanpa tanda petik). Dan klik enter.
+![install numpy](https://user-images.githubusercontent.com/105728766/169687540-cbe89095-61fa-4964-a985-1b4e5d616e9f.png)
+
 7. Tunggu proses selesai.
+8. Terakhir, ketik "pip install siphon"
+![install siphon](https://user-images.githubusercontent.com/105728766/169687546-7da6e556-d19e-4f56-b78b-0661ad60c687.png)
+
+10. Tunggu proses selesai.
 
 ## 3. Materi dan Metode Pengerjaan
 - Modul 1: Adveksi 1D
