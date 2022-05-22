@@ -20,17 +20,19 @@ Pada pemodelan oseanografi, praktikan dapat menggunakan software, seperti Jupyte
 Install Jupyter Notebook:
 1. Buka website https://anaconda.org/conda-forge/prompt untuk mengunduh Anaconda Prompt.
 2. Tunggu proses dan install ketika selesai mengunduh.
-3. Nggatau i bingung apalagi wkkwk boleh tambahin, aku lupa install anacondanya
+![install anaconda prompt](https://user-images.githubusercontent.com/105728766/169687799-798825a0-c9d4-4984-85c4-9c91c18b35e4.png)
+3. Kemudian install jupyter notebook menggunakan pip pada miniconda yang telah diinstall sebelumnya
+![jupyter notebook](https://user-images.githubusercontent.com/105728766/169687902-98c6a543-e6a3-463c-b592-8504ef1948e1.png)
 
 Untuk menginstall ketiga modul tersebut, langkah-langkah yang perlu dilakukan adalah sebagai berikut:
 1. Buka Anaconda Prompt.
 2. Ketik "pip install matplotlib" (tanpa tanda petik). Kemudian klik enter.
 ![install matplotlib](https://user-images.githubusercontent.com/105728766/169687513-3941866d-43c5-4cda-bcdd-593776586e80.png)
-4. Tunggu proses selesai.
-5. Kemudian, ketik "pip install numpy" (tanpa tanda petik). Dan klik enter.
-![install numpy](https://user-images.githubusercontent.com/105728766/169687540-cbe89095-61fa-4964-a985-1b4e5d616e9f.png)
-7. Tunggu proses selesai.
-8. Terakhir, ketik "pip install siphon"
+3. Tunggu proses selesai.
+4. Kemudian, ketik "pip install numpy" (tanpa tanda petik). Dan klik enter.
+![install siphon](https://user-images.githubusercontent.com/105728766/169687691-1a703153-ea7c-4aee-bae4-833806349c50.png)
+5. Tunggu proses selesai.
+6. Terakhir, ketik "pip install siphon"
 
 ![install siphon](https://user-images.githubusercontent.com/105728766/169687546-7da6e556-d19e-4f56-b78b-0661ad60c687.png)
 10. Tunggu proses selesai.
